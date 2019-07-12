@@ -33,6 +33,7 @@ public class NacosInfoApplication {
 
 	@RequestMapping(value = "/getUser" , method = RequestMethod.GET)
 	public void getInfo(){
+
         //String forObject = restTemplate().getForObject(info + "/getFund", String.class);
         System.out.println(info);
 	}
